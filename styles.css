@@ -1,0 +1,1585 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: rgba(245,245,247,255);
+    padding-left: 270px;
+    height: 45px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    float:left;
+    
+}
+
+.logo img {
+    width: 16px;
+    height: 16px;
+    padding-top: 8px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+        text-decoration: none;
+        color: var(--r-globalnav-color);
+        font-size: 12px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        line-height: 3;
+    }
+
+.utilities {
+    display: flex;
+    align-items: center;
+}
+
+.utilities a {
+    margin-left: 15px;
+}
+
+.utilities img {
+    width: 18px;
+    height: 19px;
+    padding-top: 10px;
+}
+.texts{
+float: left;
+}
+.texts ul{
+    float:left;
+}
+.box{
+    text-align: center;
+}
+.box p{
+    font-size: 14px;
+    color: var(--ribbon-text-color);
+}
+.body-part{
+    height: 283px;
+    background:  rgba(245,245,247,255);
+}
+.body-part p {
+        font-size: 43px;
+        padding-left: 113px;
+        padding-top: 69px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+   
+}
+.box a{
+    color:#007aff;
+}
+.body-part span{
+    color:#6e6e73;
+}
+.parent {
+    display: flex;   
+}
+.side-box {
+    padding: 31px;
+    margin-left: 425px;
+    margin-top: 65px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 3px;
+}
+
+.side-box2 {
+    width:30px;
+    height: 30px;
+    border-radius: 15px;
+    background:yellow;
+    padding: 0px;
+    margin-left: 0px;
+    background-image: url(assestes/images/Screenshot_15-8-2024_16284_store.storeimages.cdn-apple.com.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.side-box22{
+width:200px;
+}
+.side-box22 a{
+    text-decoration: none;
+    color:#007aff;
+}
+.side-box3{
+    padding: 31px;
+    margin-left: 410px;
+    margin-top: -82px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 8px;
+    }
+.side-box33{    
+    width:47px;
+height: 44px;
+padding: 0px;
+margin-left: 0px;
+background-image: url(assestes/images/222.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.side-box4{
+   width:200px; 
+}
+.side-box4 a{
+    text-decoration: none;
+    color:#007aff;
+}
+.box_conatiner{
+    background:rgba(245,245,247,255) ;
+}
+.images-box {
+    background: rgba(245,245,247,255);
+    display: flex;
+    width: 100%;
+    height: 125px;
+    gap:10px;
+}
+.image-box1{
+    width:5%;
+   
+}
+.image-box2{
+    width:10%;
+    background-image: url(assestes/images/store.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image-box3{
+    width:10%;
+    background-image: url(assestes/images/iphone.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.image-box4{
+    width:10%;
+    background-image: url(assestes/images/ipad.jpeg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.image-box5{
+    width:10%;
+    background-image: url(assestes/images/watch.jpeg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.image-box6{
+    width:10%;
+    background-image: url(assestes/images/airpod.jpeg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.image-box7{
+    width:10%;
+    background-image: url(assestes/images/airtag.jpeg);
+    background-repeat:no-repeat;
+}
+.image-box8{
+    width:10%;
+    background-image: url(assestes/images/apple\ tv.jpeg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.image-box9{
+    width:10%;
+    background-image: url(assestes/images/homepod2.jpeg);
+    background-repeat:no-repeat;
+}
+.image-box10{
+    width:10%;
+    background-image: url(assestes/images/acccesories.jpeg);
+    background-repeat:no-repeat;
+}
+.image-box11{
+    width:5%;
+}
+.textdiv{
+    background: rgba(245,245,247,255);
+    width:100%;
+    height:100px;
+    display:flex;
+}
+.textdiv p{
+    padding-left: 110px;
+    padding-top: 50px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 25px;
+font-weight: 600;
+}
+.textdiv span{
+    color:#6e6e73;
+}
+.image-box2 p{
+    
+        padding-top: 95px;
+        text-align: center;
+            display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+    
+
+.image-box3 p{
+    padding-top: 95px;
+        text-align: center;
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+}
+.image-box4 p{
+    padding-top: 95px;
+        text-align: center; 
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+} 
+.image-box5 p{
+    padding-top: 95px;
+        text-align: center;
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+}
+.image-box6 p{
+    padding-top: 95px;
+        text-align: center;
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+}
+.image-box7 p{
+    padding-top: 95px;
+        text-align: center;
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+}
+.image-box8 p{
+    padding-top: 95px;
+        text-align: center;
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+}
+.image-box9 p{
+    padding-top: 95px;
+        text-align: center;
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+}
+.image-box10 p{
+    padding-top: 95px;
+        text-align: center;
+        display:block;
+            font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+}
+.scroll-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 575px;
+    background: rgba(245,245,247,255) ;
+}
+
+
+.scroll-content {
+    display: flex;
+    gap: 20px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    flex: 1;
+    padding: 20px 0;
+    height: 540px;
+}
+
+.card1 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image1.jpg);
+    background-size: cover;
+
+}
+.card2 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image2.jpg);
+    background-size: cover;
+
+
+}
+.card3 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image3.jpg);
+    background-size: cover;
+
+
+}
+.card4 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image4.jpg);
+    background-size: cover;
+
+
+}.card5{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image5.jpg);
+    background-size: cover;
+}
+.card6{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image6.jpg);
+    background-size: cover;
+}
+.card7 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image7.png);
+    background-size: cover;
+}
+.card8 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image8.jpg);
+    background-size: cover;
+}
+.card9 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image9.jpg);
+    background-size: cover;
+}
+.card10 {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image10.jpg);
+    background-size: cover;
+}
+.card11 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/image11.jpg);
+    background-size: cover;
+}
+.blank{
+    min-width: 50px;
+    max-width: 100px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+
+}
+
+.scroll-button {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+}
+
+.scroll-button.left {
+    left: -10px;
+}
+
+.scroll-button.right {
+    right: -10px;
+}
+
+.scroll-button:focus {
+    outline: none;
+}
+
+.scroll-button:hover {
+    background-color: #ddd;
+}
+.top{
+    font-size: 12px;
+    font-weight: 600;
+    color:#6e6e73;
+} 
+.middle{
+color:black; 
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    display:flex;
+    padding-top: 10px;
+}             
+.bottom{
+    color:black;
+    font-size: 17px;
+    font-weight: 400;
+}
+.card3 span{
+    color:#b64400;
+}
+.card1 span{
+    color:#fff;
+}
+.card2 span{
+    color:#fff;
+}
+h4{
+    margin:0;
+    color:#f5f5f7;
+}
+.card7 span{
+    color:#fff;
+}
+.card8 span{
+    color:#fff;
+}
+.textdiv1{
+    background: rgba(245,245,247,255);
+    width:100%;
+    height:45px;
+    display:flex;
+}
+.textdiv1 h2{
+ padding-left: 115px;
+font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+margin:0px;
+
+}
+.textdiv1 span{
+    color:#6e6e73;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 25px;
+font-weight: 600;
+padding-left: 10px;
+}
+.cards1 {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 430px;
+    max-width: 460px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/2rowimage1.jpg);
+    background-size: cover;
+}
+.cards2 {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+    max-width: 400px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/2rowimage2.jpg);
+    background-size: cover;
+}.cards3 {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 430px;
+    max-width: 460px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/2rowimage3.jpg);
+    background-size: cover;
+}.cards4 {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 430px;
+    max-width: 460px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/2rowimage5.jpg);
+    background-size: cover;
+}.cards5 {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 430px;
+    max-width: 460px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 450px;
+    background-image: url(assestes/images/2rowimage6.jpg);
+    background-size: cover;
+}
+.scroll-container1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 575px;
+    background: rgba(245,245,247,255) ;
+}
+
+
+.scroll-content1 {
+    display: flex;
+    gap: 20px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    flex: 1;
+    padding: 20px 0;
+    height: 540px;
+}
+.top1{
+    font-size: 12px;
+    font-weight: 600;
+    color:#6e6e73;
+}
+.middle1{
+    color:#fff; 
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        display:flex;
+        padding-top: 10px;
+    }    
+    .scroll-container2 {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 345px;
+        background: rgba(245,245,247,255) ;
+    }
+    
+    
+    .scroll-content2 {
+        display: flex;
+        gap: 20px;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        flex: 1;
+        padding: 20px 0;
+        height: 280px;
+    }
+    .cards11 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 285px;
+        max-width:385px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 230px;
+        background-size: cover;
+    }
+    .cards22 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 285px;
+        max-width: 385px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 230px;
+        background-size: cover;
+    }.cards33 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 285px;
+        max-width: 385px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 230px;
+        background-size: cover;
+    }.cards44 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 285px;
+        max-width: 385px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 230px;
+        background-size: cover;
+    }.cards55 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 285px;
+        max-width: 385px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 230px;
+        background-size: cover;
+    }
+.cards66 {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 285px;
+    max-width: 385px;
+    padding: 20px;
+    flex: 0 0 auto;
+    height: 230px;
+    background-size: cover;
+}
+    .blank3{
+        min-width: 50px;
+        max-width: 100px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 230px;
+    }
+    .para{
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        padding-top:10px;
+    }
+    
+    .para1{
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .para2{
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+
+    }
+    .para3{
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .para4{
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .para5{
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+    }
+.para span{
+color:#68cc45;
+}
+.para1 span{
+    color:#007aff;
+    }
+    .para2 span{
+        background-image: linear-gradient(to right, #f8ab5e 0, #f36961 20%, #a176c8 40%, #759beb 60%, #65beb3 80%, #70db96 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 35px;
+        display:flex;
+}
+    .para3 span{
+        color:#ac39ff;
+        }
+        .para4 span{
+            color:#68cc45;
+    }
+            .para5 span{
+                color:#007aff;
+                }
+                .scroll-container3 {
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    width: 100%;
+                    overflow: hidden;
+                    height: 575px;
+                    background: rgba(245,245,247,255) ;
+                }
+                
+                
+                .scroll-content3 {
+                    display: flex;
+                    gap: 20px;
+                    scroll-behavior: smooth;
+                    overflow-x: hidden;
+                    flex: 1;
+                    padding: 20px 0;
+                    height: 540px;
+                }
+                .cardbox1 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 350px;
+    max-width: 400px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    background-image: url(assestes/images/accsesories1.jpg);
+                    background-size: cover;
+
+                }
+                .cardbox2 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width: 360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    
+                }
+                .cardbox3 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width:  360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    
+
+                }
+                .cardbox4 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width:  360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    
+
+                }
+                .cardbox5 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width:  360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    
+
+                }
+                .cardbox6 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width:  360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    
+
+                }
+                .cardbox7 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width:  360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                   
+                }
+                .cardbox8 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width:  360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    
+
+                }
+                .cardbox9 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 300px;
+    max-width:  360px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height:470px;
+                    
+                }
+                .cardbox10 {
+                    background-color: white; 
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    min-width: 350px;
+    max-width:  400px;
+                    padding: 20px;
+                    flex: 0 0 auto;
+                    height: 470px;
+                    background-image: url(assestes/images/acccesories11.jpg);
+                    background-size: cover;
+                  
+
+                }
+                
+                
+                .cardbox2 img{
+                    width:230px;
+                    height:230px;
+                    padding-left: 40px;
+    padding-top: 50px;
+                }
+                .cardbox3 img{
+                    width:230px;
+                    height:230px;
+                    padding-left: 60px;
+    padding-top: 50px;
+                }
+    .cardbox4 img{
+        width:230px;
+        height:230px;
+        padding-left: 60px;
+padding-top: 50px;
+    }
+.cardbox5 img{
+    width:230px;
+    height:230px;
+    padding-left: 60px;
+padding-top: 50px;
+}
+.cardbox6 img{
+    width:230px;
+    height:230px;
+    padding-left: 60px;
+padding-top: 50px;
+}
+.cardbox7 img{
+    width:230px;
+    height:230px;
+    padding-left: 60px;
+padding-top: 50px;
+}
+.cardbox8 img{
+    width:230px;
+    height:230px;
+    padding-left: 60px;
+padding-top: 50px;
+}
+.cardbox9 img{
+    width:230px;
+    height:230px;
+    padding-left: 60px;
+padding-top: 50px;
+}
+.top h3{
+    color:#b64400;
+    padding-top:50px;
+}
+.one{
+    font-size: 18px;
+    font-weight: 600;
+}
+.two{
+
+    padding-top: 8px;
+}
+.add{
+    padding-top:22px;
+}
+.tops{
+    font-size: 14px;
+    font-weight: 700;
+    color:#b64400;
+
+}
+
+.one1{
+    color:black; 
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        display:flex;
+        padding-top: 10px;
+        height:55px;
+    }             
+    .two2{
+        color:black;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .clickround{
+        display:flex;
+        gap:5px;
+        padding-top: 28px;
+    padding-left: 127px;
+    }
+    .circle1{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #f2f1ef;
+    }
+    .circle2{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #403d3c;
+    }
+    .circle3{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #8d616e;
+    }
+    .circle4{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #76817A;
+    }
+    .circle5{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #c3a792;
+    }
+    .circle6{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #516c7d;
+    }
+    .circle7{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #68676c;
+    }
+    .circle8{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #8c606d;
+    }
+    .circle9{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #7b877f;
+    }
+    .circle10{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #c5ac9a;
+    }
+    .circle11{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #69808e;
+    }
+    .circle12{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #646468;
+    }
+    .circle13{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #d7e1d4;
+    }
+    .circle14{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #576892;
+    }
+    .circle15{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #6b7e9a;
+    }
+    .circle16{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #2b3036;
+    }
+    .circle17{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #e7d9cd;
+    }
+    .circle18{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #fbe0db;
+    }
+    .circle19{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #dce9de;
+    }
+    .circle20{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #ffc654;
+    }
+    .circle21{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #acc3db;
+    }
+    .circle22{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #535d6a;
+    }
+    .circle23{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #aaa295;
+    }
+    .circle24{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #fe88a4;
+    }
+    .circle25{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #dceddc;
+    }
+    .circle26{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #fac566;
+    }
+    .circle27{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #afc0d2;
+    }
+    .circle28{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #5b6571;
+    }
+    .circle29{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #837b78;
+    }
+    .circle30{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #303237;
+    }
+    .circle31{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #895d6a;
+    }
+    .circle32{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #c3aa96;
+    }
+    .circle33{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #587281;
+    }
+    .circle34{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #5f5f62;
+    }
+    .circle35{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #d56561;
+    }
+    .circle36{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color:#323437; 
+    }
+    .circle37{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #F2F2F2;
+    }
+    .circle38{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-image:linear-gradient(to bottom,#3C3C3A 0%,#3C3C3A 50%,#59575A 50%, #59575A 100%)
+        
+    }
+    .circle39{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-image:linear-gradient(to bottom,#E4544C 0%,#E4544C 50%,#D9A097 50%, #D9A097 100%)
+        
+    }
+    .circle40{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-image:linear-gradient(to bottom,#E6ECE2 0%,#E6ECE2 50%,#B0BFAC 50%, #B0BFAC 100%)
+        
+    }
+    .circle41{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-image:linear-gradient(to bottom,#F5F4F0 0%,#F5F4F0 50%, #D2D3D5 50%, #D2D3D5 100%)
+        
+    }
+    .circle42{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-image:linear-gradient(to bottom,#2E506C 0%,#2E506C 50%,#91A5BA 50%, #91A5BA 100%)
+        
+    }
+    .circle43{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color:#3D5D6F;
+        
+    }
+    .circle44{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #FFC95C;
+    }
+    .circle45{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #35363A;
+    }
+    .circle46{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #F2F2F2;
+    }
+    .circle47{
+        width:12px;
+        height:12px;
+        border-radius: 6px;
+        background-color: #DA7456;
+    }
+    
+
+
+    .common{
+        padding-top:10px;
+    }
+    .scroll-container4 {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 575px;
+        background: rgba(245,245,247,255) ;
+    }
+    
+    
+    .scroll-content4 {
+        display: flex;
+        gap: 20px;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        flex: 1;
+        padding: 20px 0;
+        height: 540px;
+    }
+    .cardbox11 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 350px;
+max-width: 400px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 470px;
+        background-image: url(assestes/images/sound1.jpg);
+        background-size: contain;
+    }
+    .two22{
+        color:black;
+        font-size: 17px;
+        font-weight: 400;
+        padding-top:30px;
+    }
+    .set{
+        padding-top:18px;
+    }
+    .commons{
+        padding-top:50px;
+    }
+    .cards10 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 430px;
+        max-width: 460px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 450px;
+        background-image: url(assestes/images/last1.jpg);
+        background-size: cover;    
+    }
+    .cards20 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 430px;
+        max-width: 460px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 450px;
+        background-image: url(assestes/images/last2.jpg);
+        background-size: cover;    
+    }
+    .cards30 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 430px;
+        max-width: 460px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 450px;
+        background-image: url(assestes/images/last3.jpg);
+        background-size: cover;    
+    }
+    .cards40 {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 430px;
+        max-width: 460px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 450px;
+        background-image: url(assestes/images/last4.jpg);
+        background-size: cover;    
+    }
+    .scroll-container5{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 575px;
+        background: rgba(245,245,247,255) ;
+    }
+    
+    
+    .scroll-content5 {
+        display: flex;
+        gap: 20px;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        flex: 1;
+        padding: 20px 0;
+        height: 540px;
+    }
+    .topp{
+        font-size: 12px;
+        font-weight: 600;
+        color:#fff;
+    }
+    .cardboxes {
+        background-color: white; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-width: 350px;
+max-width: 400px;
+        padding: 20px;
+        flex: 0 0 auto;
+        height: 470px;
+        background-image: url(assestes/images/llllasstt.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .links {
+        display: flex;
+        gap: 20px;
+    }
+    .link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    }
+    .link-btn:hover {
+        color:#fff;
+        background-color:black;
+        border-color: #999;
+    }
+    .endbutton{
+        background: rgba(245,245,247,255);
+        display:grid;
+        padding-left: 110px;
+    }
+    .first p{
+        font-size:12px;
+        font-weight:400;
+        color:#6D6D6D;
+    }
+    .paragraph{
+        width:85%;
+        height:1000px;
+        background:rgba(245,245,247,255);
+        padding-left:15%;
+        display:grid;
+    }
+    .appil img{
+        width:20px;
+        height:20px;
+    }
+    .second{
+        display:flex;
+        width: 70%;
+        height:30px;
+        padding-left:218px;
+    }
+    .lists{
+        width:85%;
+        padding-left:220px;
+        display:flex;
+        padding-top:10px;
+        background: rgba(245,245,247,255);;
+    }
+.dot{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    line-height: 25px;
+}
+.listitem{
+    width:15%;
+    font-size:12px;
+    font-weight:400;
+}
+.listitem h4{
+    color:black;
+}
+.space{
+    padding-top: 12px;
+}
+.line{
+    font-size:12px;
+    padding-top:3px;
+    padding-left:10px;
+}
+.footer{
+    width:75%;
+    height:1px;
+    background:#6D6D6D        ;
+}
+.second{
+background:rgba(245,245,247,255) ;
+width:85%;
+padding-top:15px;
+}
+.lastdiv1{
+    display:flex;
+    font-size:12px;
+    padding-left : 220px;
+    background:rgba(245,245,247,255) ;
+    
+
+}
+.lastdiv{
+    font-size:12px;
+    padding-left: 220px;
+    background:rgba(245,245,247,255) ;
+    display:grid;
+}
+.lastdiv a{
+    color:#007aff;
+}
+.subdiv1{
+    font-size:12px;
+    padding-left: 20px;
+}
+.subdiv2{
+    font-size:12px;
+    padding-left: 330px;
+
+}
+
+
+
+
+
+ 
+        
